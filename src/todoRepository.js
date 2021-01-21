@@ -16,9 +16,3 @@ class TodoRepository {
 }
 
 module.exports = TodoRepository
-
-const c = new TodoRepository()
-c.create({ name:"Davi Lucas", age:14}) 
-c.create({ name:"XuxaDaSilva", age:90}) 
-
-console.log('list',c.list())
